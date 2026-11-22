@@ -146,7 +146,7 @@ img { display: block; max-width: 100%; }
 .about-section p { font-size: clamp(16px, 1.6vw, 20px); line-height: 1.85; text-align: justify; }
 
 /* ---------- STORIES: SHOWCASE ---------- */
-.showcase { background: #fff; margin-bottom: 48px; }
+.showcase { background: #000; padding-bottom: 48px; }
 .showcase-bar {
   background: #000; color: var(--white);
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
@@ -211,7 +211,7 @@ img { display: block; max-width: 100%; }
 /* ---------- STORY (individual responder) PAGES ---------- */
 .breadcrumb-bar {
   background: var(--red); color: var(--white);
-  width: 100%; padding: 12px 32px; margin-top: 16px;
+  width: 100%; padding: 12px 32px; margin-top: 0;
   font-size: 15px;
 }
 .breadcrumb-bar a { text-decoration: none; }
